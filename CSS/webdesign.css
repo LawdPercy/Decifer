@@ -1,0 +1,526 @@
+h1 {
+  font-size: calc(47.7px + 1vw);
+  font-weight: bolder;
+}
+h2 {
+  font-size: calc(29.12px + 1vw);
+ 
+}
+h3{
+  font-size: calc(18px + 1vw);
+}
+a {
+  font-size: calc(12.12px + 1vw);
+}
+
+p {
+  font-size: calc(1px + 1vw);
+}
+
+
+.webdesignheader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #f5f5f5;
+}
+/**/
+.logoicon1 {
+  position: absolute;
+  height: 100%;
+  width: 200px;
+  margin-left: 00px;
+}
+.logoicon2 {
+  position: absolute;
+  height: 100%;
+  width: 150px;
+  margin-right: 1000px;
+}
+.logoicon3 {
+  position: absolute;
+  height: 100%;
+  width: 700px;
+  margin-left: 800px;
+  margin-top: 600px;
+}
+/**/
+/**/
+/**/
+.webdesignheader h1 {
+  position: absolute;
+ color: #e85252;
+  text-align: center;
+}
+/**/
+#Icon1 {
+  margin-top: 100px;
+  margin-left: 50px;
+  height: 150px;
+  width: 150px;
+  bottom: -100%;
+  left: 0;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation: float 5s ease-out infinite;
+}
+#Icon2 {
+  margin-top: 370px;
+  height: 130px;
+  width: 150px;
+  bottom: -100%;
+  left: 0;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation: float 4s ease-out infinite;
+}
+#Icon3 {
+  margin-left: 450px;
+  margin-top: 150px;
+  height: 230px;
+  width: 240px;
+  bottom: -100%;
+  left: 0;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation: float 7s ease-out infinite;
+}
+/**/
+@keyframes float {
+  50% {
+    transform: translateY(20px);
+  }
+}
+/**/
+/**/
+.webheadertext h1 {
+  color: white;
+  padding-top: 10%;
+}
+/**/
+.webportfoliobtn {
+  position: absolute;
+  margin-top: 400px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**/
+.h-button {
+  display: flex;
+  width: 400px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+/**/
+.h-button:hover {
+  background-color: #e85252;
+  color: white;
+  transition: 0.5s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+/**/
+/**/
+/**/
+
+#webpackages {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+/**/
+.pack1 {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: solid red;
+}
+/**/
+.pack1 h1 {
+  color: black;
+}
+/**/
+.pack2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+ 
+}
+/**/
+.packA{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-around;
+  width: 70%;
+  height: fit-content;
+
+}
+/**/
+.packB{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 100%;
+  height: 90VH;
+}
+/**/
+.packB .package{
+  width: 700px;
+}
+/**/
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.package {
+  height: 70vh;
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px ;
+  margin: 1%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.package h2 {
+  margin-top: 0;
+  color: black;
+  text-decoration: underline #e85252;
+}
+
+.package p {
+  color: #555;
+}
+
+.package ul {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.package ul li {
+  margin-bottom: 10px;
+  font-size: calc(3px + 1vw);
+}
+
+.SelectItem{
+
+  background-color: black;
+  height: 50px;
+  width: 180px;
+  border-radius: 30px;
+
+}
+/**/
+.SelectItem a{
+list-style: none;
+color: white;
+border: solid black;
+border-style: none;
+text-decoration: none;
+}
+/**/
+/**/
+.container {
+  height: 100vh;
+
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contact-info {
+  text-align: center;
+
+  height: 30%;
+  width: 80%;
+  padding-top: 70px;
+  border-top: solid black;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/*Contact from styling*/
+.contact-form {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  height: 55%;
+  width: 50%;
+  max-height: 70vh;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  max-height: 30%;
+  min-height: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact-form input[type="submit"]:focus {
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+@media only screen and (max-width: 768px){
+  h1 {
+    font-size: calc(47.7px + 1vw);
+    font-weight: bolder;
+  }
+  h2 {
+    font-size: calc(29.12px + 1vw);
+   
+  }
+  h3{
+    font-size: calc(18px + 1vw);
+  }
+  a {
+    font-size: calc(12.12px + 1vw);
+  }
+  
+  p {
+    font-size: calc(1px + 1vw);
+  }
+  main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .webdesignheader{
+    height: 100vh;
+    width: 100%;
+    border: solid red;
+  }
+  /**/
+  .webdesignheader h1 {
+    width: 80%;
+  }
+  /**/
+  .logoicon1{
+    height: 10vh;
+    width: 15vw;
+    margin-left: -300px;
+    border: solid red;
+    display: none;
+  }
+   /**/
+   #Icon1{
+    height: 100%;
+    width: 100%;
+   }
+   /**/
+  .logoicon2{
+    margin-left: 0px;
+    display: none;
+  }
+  .logoicon3{
+    margin-left: -400px;
+    margin-bottom: 600px;
+    height: 50px;
+    display: none;
+  }
+  .webportfoliobtn{
+    border-radius: 30px;
+    margin-top: 100%;
+  }
+  /**/
+  .h-button{
+    border-radius: 30px;
+    width: 65%;
+  }
+  /**/
+  /**/
+  /**/
+  #webpackages{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid purple;
+  }
+  .pack1{
+    display: flex;
+
+  }
+  .pack1 h1{
+    border: solid green;
+  }
+  .pack2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+  }
+  .packA{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: solid orange;
+    width: 100%;
+  }
+  .package{
+    height: 400px;
+    width: 80%;
+  }
+  .package p{
+    font-size: calc(12px + 1vw);
+  }
+  .package ul li{
+    font-size: calc(6px + 1vw);
+  }
+  .packB{
+    border: solid red;
+    height: 100vh;
+  }
+
+  .packB .package{
+    width: 80%;
+  }
+    /**/
+    /**/
+    /**/
+    /**/
+    .container{
+     height: auto;
+     width: 100%;
+    }
+    /**/
+    .contact-info{ 
+      height: auto;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    /**/
+    .contact-info p{
+      width: 70%;
+      font-size: calc(12px + 1vw);
+      margin-top: 5%;
+    }
+    /**/
+    .contact-info ul{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      font-size: calc(12px + 1vw)
+    }
+    /**/
+    /**/
+    .contact-form{
+      width: 80%;
+      height: auto;
+      margin-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 1080px){
+
+  .webdesignheader{
+    width: 100%;
+  }
+  .logoicon1{
+    margin-left: 0px;
+  }
+  .logoicon2{
+    margin-left: 0px;
+  }
+  .logoicon3{
+    margin-left: -400px;
+    margin-bottom: 600px;
+    height: 50px;
+
+  }
+  .webportfoliobtn{
+    border-radius: 0px;
+  }
+
+  .webdesignheader h1{
+    font-size: calc(47.7px + 1vw);
+    font-weight: bolder;
+  }
+}
