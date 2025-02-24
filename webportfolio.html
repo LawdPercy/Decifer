@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale.0">
+    <title>Logo, Branding, and Web Design</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" href="/CSS/webportfolio.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------>
+    <!--------Navbar---------------------------------------------------------------------------------------->
+    <header>
+      <nav  class="navbar" id="navbar">
+        <img class="navlogo" src="/img/Decifer web logo.jpg" alt="Decifer Logo" />
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">&#9776;</label>
+        <!------Nav Links----------------------------->
+        <ul class="navbar-menu" id="navbarMenu">
+          <label for="menu-bar">&times;</label>
+          <li><a href="index.html">Home</a></li>
+          <!------Sub Nav Links Services----------------------------->  
+
+
+          <div class="dropdown">
+            <a href="innstudios.html">Innovation <br> Studios</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu1">
+                <li><a href="branding.html">Branding</a>
+                 
+                </li>
+                <li><a href="webdesign.html">Web Design</a></li>
+                <li><a href="softDev.html">Software Development</a></li>
+              </ul>
+            </div>
+          </div>
+       
+          <!------Sub Nav Links Portfolio----------------------------->
+
+          
+          <div class="dropdown">
+            <a href="brandingportfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu2">
+                <li><a href="brandingportfolio.html">Branding Portfolio</a></li>
+                <li><a href="webportfolio.html">Web Portfolio</a></li>
+                <li><a href="#">Soft Dev Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <!------Social Links----------------------------->
+        <div class="top-social">
+          <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="webdesignheader">
+        <h1>
+          Revolutionize your website <br />
+          and unleash its digital potential!
+        </h1>
+
+        <div class="webportfoliobtn">
+          <a href="webdesign.html" class="h-button">WEB DESIGN</a>
+        </div>
+      </div>
+      <section class="portfolio">
+        <div class="webportheadertext">
+          <h1>OUR WEB DESIGN PORTFOLIO</h1>
+        </div>
+        <div class="webportprojects">
+          <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1" />
+            <div class="portfolio-info">
+              <h3>Project 1</h3>
+              <p>Description of Project 1</p>
+              <a href="#">View Project</a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2" />
+            <div class="portfolio-info">
+              <h3>Project 2</h3>
+              <p>Description of Project 2</p>
+              <a href="#">View Project</a>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3" />
+            <div class="portfolio-info">
+              <h3>Project 3</h3>
+              <p>Description of Project 3</p>
+              <a href="#">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more portfolio items as needed -->
+      </section>
+    </main>
+    <div class="container">
+      <div class="contact-info">
+        <h1>Get in Touch</h1>
+        <p>
+          For inquiries about our services, please fill out the form below or
+          contact us directly.
+        </p>
+        <ul>
+          <li><strong>Email:</strong> info@yourcompany.com</li>
+          <li><strong>Phone:</strong> +1 123-456-7890</li>
+        </ul>
+      </div>
+      <form action="submit_contact.php" method="POST" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="logofooter">
+          <img src="/img/D Innovation StudiosBW.svg" alt="">
+        </div>
+        <!---Site Map--------------------------------------------------------------------------------------------------->
+
+        <div class="footer-links">
+          <div class="packlinks">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+          </div>
+          <div class="packlinks">
+            <a href="/branding.html">Branding</a>
+            <a href="/webdesign.html">Web Design</a>
+            <a href="/softDev.html">Software Development</a>
+          </div>
+          <div class="packlinks">
+            <a href="/brandingportfolio.html">Branding Portfolio</a>
+            <a href="/webportfolio.html">Web Design Portfolio</a>
+            <a href="#">Software Dev Portfolio</a>
+          </div>
+        </div>
+     <!------------------------------------------------------------------------------------------------------>
+     
+      </div>
+      <h2>Follow Us</h2>
+      <div class="social-media-links">
+        <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    
+      </div>
+      <p>&copy; 2024 Decifer. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="Branding CSS/print-mat.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+     <!------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------>
+    <!--------Navbar---------------------------------------------------------------------------------------->
+    <header>
+      <nav  class="navbar" id="navbar">
+        <img class="navlogo" src="/img/Decifer web logo.jpg" alt="Decifer Logo" />
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">&#9776;</label>
+        <!------Nav Links----------------------------->
+        <ul class="navbar-menu" id="navbarMenu">
+          <label for="menu-bar">&times;</label>
+          <li><a href="index.html">Home</a></li>
+          <!------Sub Nav Links Services----------------------------->  
+
+
+          <div class="dropdown">
+            <a href="innstudios.html">Innovation <br> Studios</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu1">
+                <li><a href="branding.html">Branding</a>
+                 
+                </li>
+                <li><a href="webdesign.html">Web Design</a></li>
+                <li><a href="softDev.html">Software Development</a></li>
+              </ul>
+            </div>
+          </div>
+       
+          <!------Sub Nav Links Portfolio----------------------------->
+
+          
+          <div class="dropdown">
+            <a href="brandingportfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu2">
+                <li><a href="brandingportfolio.html">Branding Portfolio</a></li>
+                <li><a href="webportfolio.html">Web Portfolio</a></li>
+                <li><a href="#">Soft Dev Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <!------Social Links----------------------------->
+        <div class="top-social">
+          <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      
+        </div>
+      </nav>
+    </header>
+      <div class="nav-buttons">
+        <div class="nbtn">
+          <a href="/branding.html">
+            <img  src="/img/Branding/Branding/print-mat/undo-left-round-svgrepo-com (1).svg" alt="">
+          </a>
+         
+        </div>
+          <div class="nbtn">
+            <a href="#business-cards">Business Cards </a>
+          </div>
+          <div class="nbtn">
+            <a href="#stationery">Stationery</a>
+          </div>
+          <div class="nbtn">
+            <a href="#brochures-flyers">Brochures And Flyers</a>
+          </div>
+          <div class="nbtn">
+            <a href="#posters-banners">Posters And Banners</a>
+          </div>
+          <div class="nbtn">
+            <a href="#packaging">Packaging</a>
+          </div>
+     
+      </div>
+      <main>
+
+        <div class="mat-print-header">
+   
+        </div>    
+        <section id="business-cards">
+          <div class="space"></div>
+          <div class="item-list">
+            <div class="item1">
+              <h2>Business Cards</h2>
+              <img class="imagesize" alt="">
+              
+            </div>
+            <div class="item2">
+              <p>Essential tools for networking and professional representation.</p>
+              <p><strong>Examples:</strong> Classic, minimalist, creative designs.</p>
+              <p><strong>Tips:</strong> Keep it simple, include key contact information, and use high-quality printing.</p>
+              <form class="product-form">
+              <input type="hidden" name="item" value="Business Cards">
+              <label for="quantity-bc">Quantity:</label>
+              <input type="number" id="quantity-bc" name="quantity" value="1" min="1" required>
+              <label for="design-type-bc">Design Type:</label>
+              <select id="design-type-bc" name="design-type" required>
+                 <option value="">Select Design Type</option>
+                  <option value="Classic">Classic</option>
+                  <option value="Minimalist">Minimalist</option>
+                  <option value="Creative">Creative</option>
+              </select>
+              <label for="image-upload-bc">Upload Your Design:</label>
+              <input type="file" id="image-upload-bc" name="design-image" accept="image/*">
+              <label for="price-bc">Price:</label>
+              <input type="text" id="price-bc" name="price" placeholder="Enter price" required>
+              <button type="submit">Add to Cart</button>
+            </form>
+            </div>
+          </div>
+
+      </section>
+      <section id="stationery">
+        <div class="space"></div>
+        <div class="item-list">
+          <div class="item1">
+            <h2>Stationery</h2>
+
+          </div>
+          <div class="item2">
+            <p>Branded letterheads, envelopes, and notepads.</p>
+            <p><strong>Examples:</strong> Professional letterhead, custom envelopes.</p>
+            <p><strong>Tips:</strong> Ensure consistency in design, use high-quality paper, and integrate the logo and contact details.</p>
+          <form class="product-form">
+            <input type="hidden" name="item" value="Stationery">
+            <label for="quantity-st">Quantity:</label>
+            <input type="number" id="quantity-st" name="quantity" value="1" min="1" required>
+            <label for="design-type-st">Design Type:</label>
+            <select id="design-type-st" name="design-type" required>
+                <option value="">Select Design Type</option>
+                <option value="Professional">Professional</option>
+                <option value="Custom">Custom</option>
+            </select>
+            <label for="image-upload-st">Upload Your Design:</label>
+            <input type="file" id="image-upload-st" name="design-image" accept="image/*">
+            <label for="price-st">Price:</label>
+            <input type="text" id="price-st" name="price" placeholder="Enter price" required>
+            <button type="submit">Add to Cart</button>
+        </form>
+          </div>
+        </div>
+
+      </section>
+      <section id="brochures-flyers">
+        <div class="space"></div>
+        <div class="item-list">
+          <div class="item1">
+            <h2>Brochures and Flyers</h2>
+
+          </div>
+          <div class="item2">
+            <p>Informational materials providing detailed insights into products or services.</p>
+            <p><strong>Examples:</strong> Tri-fold brochures, event flyers.</p>
+            <p><strong>Tips:</strong> Use engaging visuals, clear headings, and concise content.</p>
+            <form class="product-form">
+              <input type="hidden" name="item" value="Brochures and Flyers">
+              <label for="quantity-bf">Quantity:</label>
+              <input type="number" id="quantity-bf" name="quantity" value="1" min="1" required>
+              <label for="format-bf">Format:</label>
+              <select id="format-bf" name="format" required>
+                  <option value="">Select Format</option>
+                  <option value="Tri-fold">Tri-fold</option>
+                  <option value="Event Flyer">Event Flyer</option>
+              </select>
+              <label for="image-upload-bf">Upload Your Design:</label>
+              <input type="file" id="image-upload-bf" name="design-image" accept="image/*">
+              <label for="price-bf">Price:</label>
+              <input type="text" id="price-bf" name="price" placeholder="Enter price" required>
+              <button type="submit">Add to Cart</button>
+          </form>
+          </div>
+        </div>
+
+
+      </section>
+      <section id="posters-banners">
+        <div class="space"></div>
+        <div class="item-list">
+          <div class="item1">
+            <h2>Posters and Banners</h2>
+ 
+          </div>
+          <div class="item2">
+            <p>Tools for advertising events, promotions, or general brand awareness.</p>
+            <p><strong>Examples:</strong> Event posters, promotional banners.</p>
+            <p><strong>Tips:</strong> Create eye-catching designs, use bold headlines, and ensure readability from a distance.</p>
+            <form class="product-form">
+              <input type="hidden" name="item" value="Posters and Banners">
+              <label for="quantity-pb">Quantity:</label>
+              <input type="number" id="quantity-pb" name="quantity" value="1" min="1" required>
+              <label for="size-pb">Size:</label>
+              <select id="size-pb" name="size" required>
+                  <option value="">Select Size</option>
+                  <option value="Small">Small</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Large">Large</option>
+              </select>
+              <label for="image-upload-pb">Upload Your Design:</label>
+              <input type="file" id="image-upload-pb" name="design-image" accept="image/*">
+              <label for="price-pb">Price:</label>
+              <input type="text" id="price-pb" name="price" placeholder="Enter price" required>
+              <button type="submit">Add to Cart</button>
+          </form>
+          </div>
+        </div>
+
+
+      </section>
+      <section id="packaging">
+        <div class="space"></div>
+        <div class="item-list">
+          <div class="item1">
+            <h2>Packaging</h2>
+ 
+          </div>
+          <div class="item2">
+            <p>Custom packaging designs for products.</p>
+            <p><strong>Examples:</strong> Product boxes, branded bags.</p>
+            <p><strong>Tips:</strong> Focus on functionality and aesthetics, and consider eco-friendly materials.</p>
+            <form class="product-form">
+              <input type="hidden" name="item" value="Packaging">
+              <label for="quantity-pkg">Quantity:</label>
+              <input type="number" id="quantity-pkg" name="quantity" value="1" min="1" required>
+              <label for="material-pkg">Material:</label>
+              <select id="material-pkg" name="material" required>
+                  <option value="">Select Material</option>
+                  <option value="Cardboard">Cardboard</option>
+                  <option value="Biodegradable Plastic">Biodegradable Plastic</option>
+                  <option value="Paper">Paper</option>
+              </select>
+              <label for="image-upload-pkg">Upload Your Design:</label>
+              <input type="file" id="image-upload-pkg" name="design-image" accept="image/*">
+              <label for="price-pkg">Price:</label>
+              <input type="text" id="price-pkg" name="price" placeholder="Enter price" required>
+              <button type="submit">Add to Cart</button>
+          </form>
+          </div>
+        </div>
+
+
+      </section>
+      
+      <div id="cart">
+          <h2>Shopping Cart</h2>
+          <ul id="cart-items"></ul>
+          <button id="checkout">Checkout</button>
+      </div>
+      </main>
+
+ 
+
+    
+<footer>
+      <div class="footer-container">
+        <div class="logofooter">
+          <img src="/img/D Innovation StudiosBW.svg" alt="">
+        </div>
+        <!---Site Map--------------------------------------------------------------------------------------------------->
+
+        <div class="footer-links">
+          <div class="packlinks">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+          </div>
+          <div class="packlinks">
+            <a href="/branding.html">Branding</a>
+            <a href="/webdesign.html">Web Design</a>
+            <a href="/softDev.html">Software Development</a>
+          </div>
+          <div class="packlinks">
+            <a href="/brandingportfolio.html">Branding Portfolio</a>
+            <a href="/webportfolio.html">Web Design Portfolio</a>
+            <a href="#">Software Dev Portfolio</a>
+          </div>
+        </div>
+     <!------------------------------------------------------------------------------------------------------>
+     
+      </div>
+      <h2>Follow Us</h2>
+      <div class="social-media-links">
+        <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    
+      </div>
+      <p>&copy; 2024 Decifer. All rights reserved.</p>
+    </footer>
+</body>
+</html>

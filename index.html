@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale.0">
+    <title>Logo, Branding, and Web Design</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/home.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------>
+    <!--------Navbar---------------------------------------------------------------------------------------->
+    <header>
+      <nav  class="navbar" id="navbar">
+        <img class="navlogo" src="/img/Decifer web logo.jpg" alt="Decifer Logo" />
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">&#9776;</label>
+        <!------Nav Links----------------------------->
+        <ul class="navbar-menu" id="navbarMenu">
+          <label for="menu-bar">&times;</label>
+          <li><a href="index.html">Home</a></li>
+          <!------Sub Nav Links Services----------------------------->  
+
+
+          <div class="dropdown">
+            <a href="innstudios.html">Innovation <br> Studios</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu1">
+                <li><a href="branding.html">Branding</a>
+                 
+                </li>
+                <li><a href="webdesign.html">Web Design</a></li>
+                <li><a href="softDev.html">Software Development</a></li>
+              </ul>
+            </div>
+          </div>
+       
+          <!------Sub Nav Links Portfolio----------------------------->
+
+          
+          <div class="dropdown">
+            <a href="brandingportfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+              <ul class="submenu" id="submenu2">
+                <li><a href="brandingportfolio.html">Branding Portfolio</a></li>
+                <li><a href="webportfolio.html">Web Portfolio</a></li>
+                <li><a href="#">Soft Dev Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <!------Social Links----------------------------->
+        <div class="top-social">
+          <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      
+        </div>
+      </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------>
+    <main>    <!-- Section 1: Welcome -->
+      <section class="welcome-section">
+        <div class="welcometext">
+          <h1>
+            Crafting Identities, 
+            <br>Building Futures:<br/>
+          </h1>
+          <h2>
+            Innovative Logo Designs, <br> Websites
+            and Software <br> Development Solutions
+          </h2>
+          <button class="OurServices">
+            <a href="#services-section">Our Services</a>
+          </button>
+        </div>
+        <div class="welcomeimage">
+          <img class="HeroImage" src="/img/azania.svg" alt="">
+        </div>
+      
+      </section>
+      <!------------------------------------------------------------------------------------------------------>
+  
+      <!-- Section 2: Innovation Studios -->
+      <section class="services-section" id="services-section">
+        <div class="overlay">
+          <div class="explorebtn">
+            <button>
+              <a href="/innstudios.html">Innovation Studios</a>
+            </button>
+          </div>
+        </div>
+        
+        
+      </section>
+      <!------------------------------------------------------------------------------------------------------>
+      <!-- Section 3: About -->
+      <section class="about-section">
+        <h1>About Us</h1>
+        <p>
+          At Decifer Innovation Studios,
+           we specialize in creating captivating designs 
+           and developing cutting-edge software solutions tailored 
+           to your needs.
+            With a team of talented professionals,
+             we bring your visions to life,
+              ensuring your brand stands out in today's competitive market.
+        </p>
+        <button class="AboutUs">
+          <a href="about.html">Read More</a>
+        </button>
+      </section>
+  <!------------------------------------------------------------------------------------------------------>
+      <!-- Section 4: Contact -->
+      <section class="contact-section">
+        <h1>Contact Us</h1>
+        <div class="containerForm">
+          <div class="Msg">
+            <p>Swing by for a cup of coffee, 
+              <br>or leave us a message:</p>
+          </div>
+          <div class="row">
+            <!-- <div class="column1">
+              <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095.034251965862!2d-122.0801294840662!3d37.3890497798412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808ba6c7d3a1%3A0x164fc8e12beea5ad!2sGoogleplex!5e0!3m2!1sen!2sus!4v1637178354751!5m2!1sen!2sus">                
+              </iframe>
+              <p>38 Muisvoel Avenue <br>
+                 Birch Acres, Johannesburg <br>
+                  Gauteng, South Africa <br>
+                </p>
+            </div> -->
+            <div class="column2">
+              <h2>Get In Touch</h2>
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+<!------------------------------------------------------------------------------------------------------>
+<!----footer----------------------------------------------------------------------------------------------->
+    <footer>
+      <div class="footer-container">
+        <div class="logofooter">
+          <img src="/img/D Innovation StudiosBW.svg" alt="">
+        </div>
+
+        <!---Site Map--------------------------------------------------------------------------------------------------->
+
+        <div class="footer-links">
+          <div class="packlinks">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+          </div>
+          <div class="packlinks">
+            <a href="/branding.html">Branding</a>
+            <a href="/webdesign.html">Web Design</a>
+            <a href="/softDev.html">Software Development</a>
+          </div>
+          <div class="packlinks">
+            <a href="/brandingportfolio.html">Branding Portfolio</a>
+            <a href="/webportfolio.html">Web Design Portfolio</a>
+            <a href="#">Software Dev Portfolio</a>
+          </div>
+        </div>
+     <!------------------------------------------------------------------------------------------------------>
+
+      </div>
+      <h2>Follow Us</h2>
+      <div class="social-media-links">
+        <a href="https://x.com" target="_blank"><i class="fab fa-x"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    
+      </div>
+      <p>&copy; 2024 Decifer. All rights reserved.</p>
+    </footer>
+    <!------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------>
+    <!---JavaScript--------------------------------------------------------------------------------------------------->
+    <script src=""></script>
+    <script class=""></script>
+    <script src=""></script>
+  </body>
+</html>

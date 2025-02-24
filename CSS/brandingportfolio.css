@@ -1,0 +1,427 @@
+/**/
+/**/
+h1 {
+  font-size: 47.12px;
+}
+h2 {
+  font-size: 29.12px;
+}
+a {
+  font-size: 29.12px;
+}
+
+p {
+  font-size: 18px;
+}
+/**/
+.brandingheader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+/**/
+.brandingheader h1 {
+  padding-top: 150px;
+  text-align: center;
+}
+/**/
+.headerbtns {
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**/
+.h-button {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 50px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid black green;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/**/
+.h-button:hover {
+  background-color: #e85252;
+  color: white;
+  border: solid white;
+  transition: 0.5s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+/**/
+.brandingheader h1 {
+  color: white;
+}
+/**/
+/**/
+.logoportfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+/**/
+.logoportfolio h1 {
+  color: black;
+  border-bottom: solid black;
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/**/
+/**/
+/**/
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo-grid {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.logo-item {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 300px;
+
+}
+
+.logo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.logo-item:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.logo-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.logo-item:hover .overlay-content {
+  transform: translate(-50%, -50%) scale(1.05);
+  opacity: 1;
+}
+
+.overlay-content h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.overlay-content p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-view {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+.packdesignportfolio {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background: #f5f5f5;
+  grid-template-columns: repeat(3, 1fr);
+}
+/**/
+.pd_header {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+
+  border-bottom: solid black;
+}
+/**/
+.pd_header h1 {
+  color: black;
+  text-align: center;
+}
+/**/
+.pd_portfolio {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+.portfolio-item {
+  height: 400px;
+  width: 350px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-info {
+  margin-top: 20px;
+}
+
+.portfolio-info h3 {
+  margin-top: 0;
+}
+
+.portfolio-info p {
+  margin-bottom: 10px;
+}
+
+.portfolio-info strong {
+  font-weight: bold;
+}
+
+.portfolio-info a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/**/
+/**/
+/**/
+/**/
+.container {
+  height: 100vh;
+width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30%;
+  width: 80%;
+  border-top: solid black;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/*Contact from styling*/
+.contact-form {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  height: 55%;
+  width: 80%;
+  max-height: 70vh;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  max-height: 30%;
+  min-height: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact-form input[type="submit"]:focus {
+}
+
+/**/
+/**/
+/**/
+/**/
+@media only screen and (max-width: 768px){
+
+  /**/
+  .brandingheader{
+    height: 80vh;
+  }
+  /**/
+  .headerbtns {
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /**/
+  .logoportfolio{
+    height: 40vh;
+  }
+  /**/
+  .logoportfolio h1{
+    font-size: 30px;
+  }
+  /**/
+  .logo-grid{
+    border: solid red;
+    justify-content: space-around;
+    display: flex;
+    height: fit-content;
+  }
+  /**/
+  .logo-item {
+    width: 80px;
+    height: 80px;
+   
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  
+  }
+
+  /**/
+  /**/
+  .packdesignportfolio{
+    height: 280vh;
+    
+  }
+  /**/
+  .packdesignportfolio h1{
+    font-size: 30px;
+    border: solid red;
+  }
+  /**/
+  /**/
+  /**/
+  .pd_portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250vh;
+    width: 80%;
+    border-bottom: solid #e85252;
+  }
+  /**/
+  /**/
+
+}

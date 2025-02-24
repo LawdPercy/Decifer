@@ -1,0 +1,607 @@
+/* Reset and General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap');
+*{
+  font-family: "Sora", sans-serif;
+}
+main {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/*Hero Slide code starts here*/
+/**/
+/**/
+
+
+
+/**/
+/**/
+.welcome-section{
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/**/
+/**/
+.welcometext {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  text-align: left;
+  animation: slide-in-text 1s forwards;
+  
+}
+/**/
+.welcomeimage {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: slide-in-text 1s forwards;
+}
+/**/
+.welcometext h1{
+  font-size: 3vw;
+  margin-bottom: 5%;
+}
+/**/
+.welcometext h2{
+  font-size: 2vw;
+}
+/**/
+.OurServices h3{
+  font-size: 1.5vw;
+}
+/**/
+.OurServices{
+  height: 60px;
+  width: 180px;
+  margin-top: 80px;
+  border-radius: 30px;
+  background-color: #e85252;
+  color: white;
+  font-size: 20px;
+  border-style: none;
+}
+/**/
+.OurServices a{
+  width: 100%;
+  height: 100%;
+  font-size:22px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+/**/
+
+/**/
+.HeroImage{
+  
+  width:80%;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation: float 4s ease-out infinite;
+}
+/**/
+/*@keyframes float {
+  50% {
+    transform: translateY(20px);
+  }
+}*/
+/**/
+.services-section{
+  height: 75vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/img/Branding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: solid green;
+}
+/**/
+.overlay{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.01);
+  border: solid green;
+  z-index: 10px;
+
+}
+/**/
+.explorebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+  border: solid purple;
+  width: 100%;
+  height: 100%;
+}
+/**/
+button{
+  background-color: #e85252;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 45px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 100px;
+  width: 500px;
+}
+/**/
+button a{
+  text-decoration: none;
+  color: white;
+}
+/**/
+
+.about-section{
+  
+  height: 105vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+/**/
+.about-section h1{
+height: 200px;
+padding-top: 60px;
+border-bottom: solid #e85252;
+width: 80%;
+text-align: center;
+}
+/**/
+.about-section p{
+  padding-top: 75px;
+  font-size: 40px;
+  width: 80%;
+  text-align: center;
+}
+/**/
+.AboutUs{
+  height: 55px;
+  width: 200px;
+  margin-top: 60px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  border: solid black;
+  font-size: 20px;
+}
+/**/
+.AboutUs a{
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+/**/
+.contact-section{
+  background-color: #f2f2f2;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/**/
+.contact-section h1{
+  border-bottom: solid #e85252;
+  height: 200px;
+  width: 80%;
+  padding-top: 75px;
+  text-align: center;
+}
+/**/
+/**/
+/* Style the container/contact section 4 */
+.containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-top: 50px;
+
+}
+/**/
+.Msg p{
+  text-align: center;
+  font-size: 25px;
+}
+/**/
+/* Create two columns that float next to eachother */
+.row{
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+/* Create two columns that float next to eachother */
+.column1 {
+  height: 100%;
+  width: 50%;
+  margin-top: 6px;
+  
+
+
+}
+iframe{
+  height: 100%;
+  width: 80%;
+  border-style: none;
+}
+
+/**/
+.column1 p{
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: solid #e85252;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 60px;
+  width: 100%;
+  margin-top: 6px;
+  box-shadow: 0.1px 0.1px 3px 0px;
+  
+}
+.column2 h2{
+  text-align: center;
+}
+/**/
+form{
+  width: 70%;
+  height: 80%;
+ 
+  padding: 30px;
+}
+/**/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: calc(47.7px + 1vw);
+    font-weight: bolder;
+  }
+  h2 {
+    font-size: calc(39.81px + 1vw);
+   
+  }
+  h3{
+    font-size: calc(25px 1vw);
+  }
+  a {
+    font-size: calc(29.12px + 1vw);
+  }
+  
+  p {
+    font-size: calc(18px + 1vw);
+  }
+  main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scroll-snap-type: ;
+    scroll-padding: 10px;
+  }
+  .welcome-section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+   padding-top: 10vh;
+  }
+  .welcometext{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    border-bottom: solid #e85252;
+
+  }
+  .welcometext h1 {
+    display: flex;
+    width: 100%;
+    font-size: calc(24px + 1vw);
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+  }
+  .welcometext h2{
+    font-size: calc(16.81px + 1vw);
+    width: 80%;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+  }
+
+   
+  .OurServices{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    height: 60px;
+    width: 180PX;
+    border-radius: 30px;
+    display: none;
+  }
+  /**/
+  .OurServices h3{
+    font-size: calc(12px + 1vw);
+  }
+  /**/
+  .welcome-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  /**/
+  /**/
+  .welcomeimage{
+    width: 100%;
+  }
+  .HeroImage{
+    height: 40vh;
+    width: 250px;
+    margin-top: 0px;
+   
+    margin: 0;
+    padding: 0;
+  
+  }
+  .services-section{
+    height: 40vh;
+    scroll-snap-align: start;
+  }
+  .services-section h1{
+    height: 20vh;
+    width: 80%;
+font-size: calc(35.7px + 1vw) ;
+  }
+  /**/
+  .explorebtn button{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /**/
+  .explorebtn button a{
+    font-size: 20px;
+  }
+  /**/
+  .service-list{
+    display: flex;
+    height: 130vh;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  }
+  .S-list{
+    height: 35vh;
+    border: solid white 5px;
+  }
+  .about-section{
+    height: fit-content;
+
+  }
+  .about-section h1{
+    height: 20vh;
+    font-size: calc(35.7px + 1vw)
+  }
+  .about-section p{
+    font-size: 25px;
+  }
+  .AboutUs{
+    margin-bottom: 10%;
+  }
+  .contact-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: #f5f5f5;
+   
+
+  }
+  .contact-section h1{
+    height: 20vh;
+    font-size: calc(30px + 1vw)
+  }
+  .containerForm{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Msg{
+    width: 80%;
+    font-size: 25px;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    
+  }
+  .column1{
+  height: 70vh;
+    width: 80%;
+    
+  }
+  .column1 iframe{
+    width: 100%;
+    height: 50vh;
+  }
+  .column1 p{
+    font-size: 22px;
+  }
+  .column2{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 10%;
+    border-radius: 10px;
+  }
+  .column2 h2{
+    height: 10%;
+    font-size: 30px;
+    width: 100%;
+    border-bottom: solid #e85252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ margin-bottom: 30px;
+  }
+  form{
+    padding: 20px;
+   height: 90%;
+   width: 80vw;
+  }
+
+}
+/**/
+
+/**/
+/**/
+/**/
+@media screen and(max-width: 1080x) {
+  .welcome-section{
+    width: 80%;
+  }
+  /**/
+  .welcome-section{
+    border: solid red;
+  }
+  .welcometext, .welcomeimage{
+    border: solid blue;
+    display: flex;
+    padding-left: 0;
+
+  }
+  .OurServices {
+    width: 250px;
+  }
+
+}
+
